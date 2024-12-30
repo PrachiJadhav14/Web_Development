@@ -9,14 +9,24 @@
     <script>
         
         // 1)  Array Literal
-        const Arr_Name  = [10, 30,23,434];
-        console.log(Arr_Name);
+        // const Arr_Name  = [10, 30,23,434];
+        // console.log(Arr_Name);
         // Arr_Name[2] = 100;
         // console.log(Arr_Name);
 
         //    2) New Array
-        const Arr_Name02 = new Array(10,20,30,40,50);
-        console.log(Arr_Name02);   
+        // const Arr_Name02 = new Array(10,20,30,40,50);
+        // console.log(Arr_Name02);   
+
+        // 3) length
+        const StudentMarks01 = [79,80,60,90,69];
+        StudentMarks01[StudentMarks01.length]=100;
+        const LastIndex =  StudentMarks01.length- 1;
+        console.log(StudentMarks01[LastIndex]);
+
+        StudentMarks01[30] ="Hello";
+        console.log(StudentMarks01);
+        
     </script>
 </body>
 </html>
