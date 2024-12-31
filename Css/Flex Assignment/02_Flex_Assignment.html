@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex Assignment</title>
     <style>
-        body{
+        body {
             border: 1px solid black;
             padding: 1px;
         }
-        header{
+
+        header {
             display: flex;
             justify-content: center;
             border: 1px solid black;
@@ -18,76 +20,132 @@
             width: 100%;
             box-sizing: border-box;
             padding: 20px;
-            font-size:40px;
+            font-size: 40px;
         }
-        .main{
+
+        .main {
             display: flex;
             box-sizing: border-box;
             padding: 30px;
-           margin: 3px;
+            margin: 3px;
             border: 1px solid black;
             height: 100%;
-           
         }
-        .ele{
+
+        .ele {
             /* border: 1px solid black; */
-             padding: 2px; 
+            padding: 2px;
             box-sizing: border-box;
             width: 100px;
             font-size: 20px;
-           
+
         }
-        artical{
+
+        section {
             display: flex;
+            margin: 2px;
+        }
+
+        .section01 {
             border: 1px solid black;
+            margin: 2px;
+            padding: 4px;
+        }
+
+        .section02 {
+            border: 1px solid black;
+            margin: 2px;
+            padding: 4px;
+        }
+
+        artical {
+            display: flex;
+            border: 1px solid gray;
             width: 100%;
             height: 100%;
-            
+            padding: 3px;
+            box-sizing: border-box;
         }
-        .demo01{
+
+        .demo01 {
             border: 1px solid black;
-            padding: 20px;
-            height: 100px;
+            padding: 40px;
+            width: 350px;
+            margin: 2px;
+            margin-left: 3px;
+            height: 50px;
+            /* /* height: 100px; */
+            text-align: center;
+            box-sizing: border-box;
+            background-color: gray;
+            color: white;
         }
-        .demo02{
-            
+
+        .demo02 {
+            border: 1px solid black;
+            margin: 2px;
+            width: 380px;
+            height: 50px;
+            padding: 40px;
+            box-sizing: border-box;
+            /* height: 100px;     */
+            text-align: center;
+            background-color: gray;
+            color: white;
         }
-        
+
+        footer {
+            text-align: center;
+            border: 1px solid black;
+            margin: 2px;
+            font-size: large;
+        }
+
+        #demo {
+            padding-left: 40px;
+            box-sizing: content-box;
+        }
     </style>
 </head>
+
 <body>
     <header>
         <div><b>Webx86</b></div>
     </header>
     <main>
         <div class="main">
-        <div class="ele">Home</div>
-        <div class="ele">About</div>
-        <div class="ele">Contact Us</div>
-        <div class="ele">Help</div>
-    </div>
+            <div class="ele">Home</div>
+            <div class="ele">About</div>
+            <div class="ele">Contact Us</div>
+            <div class="ele" id="demo">Help</div>
+        </div>
     </main>
     <section>
-        <div> 
-            <img src="C:\Users\prach\OneDrive\Desktop\Github\Web_Development\Assetes\krishna 01.jpg" height="100px" width="100px"alt="img"></div>
-        <div>
-           <img src="../../Assetes/Radha Krishna Holi - Copy.jpg" alt="img" height="100px" width="100px">
+        <div class="section01">
+            <img src="../../Assetes/Radha & Krishna 01.jpeg" height="500px" width="610px" alt="img">
+        </div>
+        <div class="section02">
+            <img src="../../Assetes/Radha Krishna Holi - Copy.jpg" alt="img" height="500px" width="610px">
         </div>
     </section>
     <artical>
+        <div class="artical01">
+            <img src="../../Assetes/Radha Krishna 03 - Copy.jpg" alt="img" height="230px" width="500px">
+        </div>
         <div>
-            <img src="../../Assetes/Radha & Krishna 01.jpeg"  alt="img" height="100px" width="100px">
+            <div class="demo01">HTML</div>
+            <div class="demo01">CSS</div>
+            <div class="demo01">JS</div>
         </div>
-        <div class="demo01">
-            <div>HTML</div>
-            <div>CSS</div>
-            <div>JS</div>
-        </div>
-        <div class="demo02">
-            <div>Description</div>
-            <div>Description</div>
-            <div>Description</div>
+        <div>
+            <div class="demo02">Description</div>
+            <div class="demo02">Description</div>
+            <div class="demo02">Description</div>
         </div>
     </artical>
+    <footer>
+        <p>Footer</p>
+    </footer>
 </body>
+
 </html>
