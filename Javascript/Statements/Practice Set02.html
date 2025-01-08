@@ -1,6 +1,24 @@
 <script>
-  for (let num = 0; num <= 100; num++)
-  {
-    console.log("num = ",num);
-  }
+//   for (let num = 0; num <= 100; num++)
+//   {
+//     console.log("num = ",num);
+//   } 
+  
+     ///Even Number
+    // for(let num = 0; num <= 100; num++){
+    //     if(num%2 === 0){
+    //         //even Number
+    //         console.log("num=",num);
+    //     }
+    // }
+
+    let gameNum = 25;
+    let userName = prompt("Guess The Game Number : ");
+     
+    while(userName != gameNum){
+        userName = prompt("You entered  Wrong Number. Guess Again :");
+    }
+
+    console.log("Congratulations,You enterd the right number");
+
 </script>
