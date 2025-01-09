@@ -1,0 +1,49 @@
+a:hover{
+    text-decoration: none;
+}
+#header{
+    color:#fff;
+    background-color: #f3d099;
+    
+}
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    margin:10px;
+    font-size: 2rem;
+}
+#menu li{
+    display: inline-block;
+    margin: 20px;
+}
+#menu li a{
+    color:#fff;
+    background-color: #f6bb87;
+    display: block;
+    padding: 15px 10px;
+}
+#menu li a:hover{
+    background-color: #f39c12;
+}
+#class{
+   margin: 14px;
+}
+.main{
+    background-image: url('/Assetes/page1.png') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: 1px solid;
+    height: 100%;
+    width: 100%;
+   
+}
+.para{
+    border: 1px solid black;
+    padding: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 34px;
+}
+.head{}
