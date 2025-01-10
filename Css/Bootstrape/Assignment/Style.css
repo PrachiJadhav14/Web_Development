@@ -35,7 +35,7 @@ a:hover{
     background-image: url('/Assetes/page1.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    position: absolute;
+    position: relative;
     /* border: 1px solid; */
     height: 118%;
     width: 100%;
@@ -47,7 +47,6 @@ a:hover{
     font-family: 'Courier New', Courier, monospace;
     padding: 34px;
 }
-.footer{
+.header{
     font-family: 'Courier New', Courier, monospace;
-    border: 1px solid  black;
 }
