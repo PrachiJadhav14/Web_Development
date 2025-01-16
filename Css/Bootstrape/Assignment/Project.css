@@ -1,0 +1,70 @@
+a:hover{
+    text-decoration: none;
+}
+.header{
+    color:#fff;
+    background-color: #f3d099;
+    
+}
+#logo{
+    margin:10px;
+    font-size: 2rem;
+}
+#menu li{
+    display: inline-block;
+    margin: 20px;
+}
+#menu li a{
+    color:#fff;
+    background-color: #f6bb87;
+    display: block;
+    padding: 15px 10px;
+}
+#menu li a:hover{
+    background-color: #f39c12;
+}
+#class{
+    margin: 14px;
+ }
+ .main{
+
+    background-image: url('/Assetes/About.jpg');
+       /* background-position:absolute; */
+      background-repeat: no-repeat;
+       height: 100%;
+       background-size: cover;
+       width: 100%;
+       /* border: 1px solid black; */
+       display:flex;
+       background-color: #fff;
+       padding: 40px;
+ }
+ .main01{
+    /* border: 1px solid black; */
+    width: 100%;
+    background-color: #fbe0e0;
+ }
+ #main02{
+    /* border: 1px solid black; */
+    padding: 30px;
+    width: 100%;
+    background-color: #fbe0e0;
+ }
+.section{
+   background-color:rgb(217, 212, 212);
+    /* border: 1px solid black; */
+    padding:15px
+}
+.btn{
+    /* border: 1px solid black; */
+    border-radius: 120px;
+    padding: 10px;
+    
+
+}
+footer{
+    /* border: 1px solid black; */
+    padding: 5px;
+    background-color: #f3d099;
+    padding: 10px;
+}
