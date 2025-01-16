@@ -4,11 +4,18 @@ a:hover{
 .header{
     color:#fff;
     background-color: #f3d099;
-    
+ 
+}
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 #logo{
     margin:10px;
     font-size: 2rem;
+    padding: 15
+    mainpx;
 }
 #menu li{
     display: inline-block;
@@ -19,52 +26,47 @@ a:hover{
     background-color: #f6bb87;
     display: block;
     padding: 15px 10px;
+    
 }
 #menu li a:hover{
     background-color: #f39c12;
 }
 #class{
-    margin: 14px;
- }
- .main{
-
+   margin: 14px;
+}
+.Data{
+    text-align: center;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+main{
     background-image: url('/Assetes/About.jpg');
-       /* background-position:absolute; */
-      background-repeat: no-repeat;
-       height: 100%;
-       background-size: cover;
-       width: 100%;
-       /* border: 1px solid black; */
-       display:flex;
-       background-color: #fff;
-       padding: 40px;
- }
- .main01{
-    /* border: 1px solid black; */
-    width: 100%;
-    background-color: #fbe0e0;
- }
- #main02{
-    /* border: 1px solid black; */
-    padding: 30px;
-    width: 100%;
-    background-color: #fbe0e0;
- }
-.section{
-   background-color:rgb(217, 212, 212);
-    /* border: 1px solid black; */
-    padding:15px
-}
-.btn{
-    /* border: 1px solid black; */
-    border-radius: 120px;
-    padding: 10px;
     
-
 }
-footer{
-    /* border: 1px solid black; */
-    padding: 5px;
-    background-color: #f3d099;
-    padding: 10px;
+.main{
+    display:flex;
+    text-align: center;
+    border: 1px solid black;
+}
+.demo1{
+    border: 1px solid black;
+    padding: 25px;
+}
+.demo2{
+    border: 1px solid black;
+    padding: 25px;
+}
+.demo3{
+    border: 1px solid black;
+    padding: 25px;
+}
+section{
+    text-align: center;
+    padding: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(239, 239, 127, 0.31);
+}
+.artical{
+    text-align: center;
+    border:1px solid;
 }
