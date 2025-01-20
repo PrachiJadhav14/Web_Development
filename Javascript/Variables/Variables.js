@@ -1,5 +1,3 @@
-
-
                     // const Product = {
                     //     title:"Ball Pen",
                     //     rating : 4,
