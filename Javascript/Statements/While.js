@@ -16,8 +16,8 @@
 //     y = y + x;
 // }
 
- var i = 0;
- var j = 0;
+//  var i = 0;
+//  var j = 0;
 
 //    while(i<5)
 //    {
