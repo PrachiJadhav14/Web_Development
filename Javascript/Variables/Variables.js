@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Variables</title>
-</head>
-<body>
-    <script>
 
 
                     // const Product = {
@@ -31,6 +22,4 @@
                 
                     const obj = {name:"myname",age:20,std:"1st"};
                     console.log(obj);
-    </script>
-</body>
-</html>
+   
