@@ -1,5 +1,5 @@
 
-    // var x = null;
-    // console.log(x);
+    var x = null;
+    console.log(x);
        
    
