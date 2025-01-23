@@ -20,15 +20,29 @@
 
 
         // Squre Root
-        const returnSquare = function (val){
-            let NewArr = [];
-            for (let i = 0; i<=val.length -1; i++)
-                    {
-                        NewArr[i] =  val[i] * val[i];
-                    }
-                    return NewArr;
-        }
-        var x = [10,20,30,40,50];
-        var Result = returnSquare(x);
-        console.log(Result);
+        // const returnSquare = function (val){
+        //     let NewArr = [];
+        //     for (let i = 0; i<=val.length -1; i++)
+        //             {
+        //                 NewArr[i] =  val[i] * val[i];
+        //             }
+        //             return NewArr;
+        // }
+        // var x = [10,20,30,40,50];
+        // var Result = returnSquare(x);
+        // console.log(Result);
+
+
+
+    // Call Back
+
+    function Display(x){
+        console.log("Value Of x: ",x);
+    }
+
+    function Sum(a,b,callback){
+        sum=a+b;
+        callback(sum);
+    }
+    sum(10,20,Display);
 </script>
