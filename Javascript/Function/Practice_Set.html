@@ -32,5 +32,55 @@
     }
       return Count;
     }
-    
+
+
+//////////////////////////////////////////////////////////////////////////////////
+ ///////////No Of Square Root ForEach/////////////////////////////////////////////                                          
+ //   // let Nums = [2,4,6,8];                //
+ //
+ //    //  Nums.forEach((Num) => {
+ //       
+ //   //  console.log(Num*Num);
+ //   //  })
+ //   
+ //    //////////////// OR ///////////////////
+ //
+ //   
+ //   let nums = [12,344,5];
+ //   let Calcsquare = (num)=>{
+ //       console.log(num*num) 
+ //          };
+ //
+ //         nums.forEach(Calcsquare);
+ //
+  //
+  ////////////////////////////////////////////////////////////////////////////////////
+
+
+    // Q.  We Are given Array Of Marks of Students.Filter Out Of The Marks Of Student That Scored 90+
+
+    //     let  Marks=[23,5,89,98,97,65,94,93];
+    //     let Topper=Marks.filter((val)=>{
+    //      return val >90;
+    // });
+    // console.log(Topper);
+
+    ////Print The No 
+      let n=prompt("Enter a Number :");
+      let Arr  = [];
+      for (let i=1;i<=n;i++){
+        Arr[i-1] = i;
+      }
+       console.log(Arr);
+
+      let sum= Arr.reduce((res,curr)=>{
+            return res+curr;
+       });
+       console.log(sum);
+
+       let Factorial = Arr.reduce((res,curr)=>{
+        return res*curr;
+
+       });
+       console.log("Factoral = ",Factorial);
 </script>
