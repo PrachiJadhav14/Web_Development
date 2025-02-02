@@ -1,7 +1,7 @@
 a:hover{
     text-decoration: none;
 }
-.header{
+#header{
     color:#fff;
     background-color: #f3d099;
     
@@ -30,4 +30,36 @@ a:hover{
 }
 #class{
    margin: 14px;
+}
+.main{
+    background-image: url('/Assetes/page1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    position: relative;
+    /* border: 1px solid; */
+    height: 118%;
+    width: 100%;
+   padding:20px;
+}
+
+.para{
+
+    border: 1px solid black;
+    padding: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f6e3c3;
+    padding: 34px;
+}
+.header{
+    font-family: 'Courier New', Courier, monospace;
+}
+footer{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #f3d099;
+    padding: 10px;
+}
+.link{
+     padding: 5px;
 }
