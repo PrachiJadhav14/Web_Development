@@ -1,52 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <style>
-        .container{
-                     border:1px solid blueviolet;
-                     overflow:auto;
+        .container {
+            border: 1px solid blueviolet;
+            overflow: auto;
         }
-        .col{
+
+        .col {
             width: 23%;
             height: 200%;
             margin: 1%;
-            float:left;
+            float: left;
         }
+
         @media screen and (max-width:500px) {
-            .col{
-            width: 46%;
-            height: 200%;
-            margin: 2%;
-            float:left;
+            .col {
+                width: 46%;
+                height: 200%;
+                margin: 2%;
+                float: left;
+            }
         }
-    }
-    @media screen and (max-width:200px) {
-        .col{
-            width: 92%;
-            height: 200%;
-            margin: 4%;
-            float:left;
+
+        @media screen and (max-width:200px) {
+            .col {
+                width: 92%;
+                height: 200%;
+                margin: 4%;
+                float: left;
+            }
         }
-    }
     </style>
 </head>
+
 <body>
-     <section class="container">
+    <section class="container">
         <div class="col">
             <img src="../../Assetes/krishna 01.jpg" height="100%" width="100%" alt="imge">
         </div>
         <div class="col">
-            <img src="../../Assetes/krishna 01.jpg"  height="100%" width="100%" alt="imge">
+            <img src="../../Assetes/krishna 01.jpg" height="100%" width="100%" alt="imge">
         </div>
         <div class="col">
-            <img src="../../Assetes/krishna 03.jpg"  height="100%" width="100%" alt="imge">
+            <img src="../../Assetes/krishna 03.jpg" height="100%" width="100%" alt="imge">
         </div>
         <div class="col">
-            <img src="../../Assetes/krishna 03.jpg"  height="100%" width="100%" alt="imge">
+            <img src="../../Assetes/krishna 03.jpg" height="100%" width="100%" alt="imge">
         </div>
-     </section>
+    </section>
 </body>
+
 </html>
