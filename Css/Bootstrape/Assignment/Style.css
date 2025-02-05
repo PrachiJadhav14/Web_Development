@@ -55,11 +55,11 @@ a:hover{
     font-family: 'Courier New', Courier, monospace;
 }
 footer{
-    border: 1px solid black;
-    padding: 5px;
+    /* border: 1px solid black; */
+    /* padding: 5px; */
     background-color: #f3d099;
     padding: 10px;
 }
 .link{
-     padding: 5px;
+     padding: 3px;
 }
