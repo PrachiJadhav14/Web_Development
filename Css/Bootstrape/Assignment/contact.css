@@ -62,3 +62,51 @@ footer{
 .link{
      padding: 5px;
 }
+.text-center{
+    border: 1px solid black;
+   
+    text-align:start
+}
+.contact{   
+    
+
+    padding: 30px;
+}
+section{
+    background-image: url('/Assetes/contact.png');
+  
+    background-repeat: no-repeat;
+   
+}
+.btn{
+    width: 50%;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    margin: 6px;
+}
+iframe{
+    width:100%;
+   filter: invert(100%);
+}
+aside{
+    height:900px;
+    width: 100%;
+    display: flex;
+}
+.imges{
+    width: 50%;
+     border: 1px solid black;
+     height: 50%;
+
+    /* padding: 5px; */
+}
+.para{
+    /* width: 50%;
+    border: 1px solid black;
+    /* padding:70px; */
+    /* box-sizing: border-box;
+    height: 50%; */
+      width: 50%;
+}
