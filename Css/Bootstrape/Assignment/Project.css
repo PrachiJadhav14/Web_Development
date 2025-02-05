@@ -67,6 +67,46 @@ section{
     background-color: rgba(239, 239, 127, 0.31);
 }
 .artical{
+    background-image: url('/Assetes/page1.png');
+    border: 1px solid black;
+     padding: 30px;
     text-align: center;
-    border:1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:bisque ;
+    object-fit: contain;
+    opacity: 2.3;
+}
+button:hover{
+    cursor: pointer;
+    width: 100px;
+    background-color: aliceblue;
+    opacity: 2.3 px;
+}
+.Income-statement{
+    padding: 25px;
+    border: 1px solid black;
+    background-color:bisque ;
+    color:aliceblue ;
+   
+}
+#style{
+    padding: 4px;
+}
+.footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+.link{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;  
+}
+#instagram{
+           /* border: 1px solid black; */
+           margin: 15px;
+           
 }
