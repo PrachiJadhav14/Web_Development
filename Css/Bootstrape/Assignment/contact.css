@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 a:hover{
     text-decoration: none;
 }
@@ -55,7 +60,6 @@ a:hover{
 }
 footer{
     border: 1px solid black;
-    padding: 5px;
     background-color: #f3d099;
     padding: 10px;
 }
@@ -86,27 +90,67 @@ section{
     padding: 5px;
     margin: 6px;
 }
-iframe{
-    width:100%;
-   filter: invert(100%);
-}
-aside{
-    height:900px;
+main .container{
+
+    margin: 0px;
     width: 100%;
+    z-index: 2;
+    border: 2px solid black;
+    
+}
+.container iframe{
+    width:inherit;
+    object-fit: cover;
+    border: 2px solid black;
+    padding: 0;
+    margin: 0;
+
+}
+
+aside{
+    /* border: 2px solid brown; */
+    height:500px;
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
 }
-.imges{
-    width: 50%;
-     border: 1px solid black;
-     height: 50%;
 
-    /* padding: 5px; */
+
+.laptop{
+    box-sizing: border-box;
+    /* border: 2px solid green; */
+    height: inherit;
+    width: 50%;
+    background-color: azure;
+    object-fit: cover;
+
 }
-.para{
-    /* width: 50%;
+.laptop img{
+    height: inherit;
+    width: 100%;
+}
+.features{
+    box-sizing: border-box;
+    /* border: 2px solid rgb(31, 83, 31); */
+    height: inherit;
+    width: 50%;
+    background-color: rgb(109, 168, 168);
+}
+article{
+            border: 1px solid black;
+}
+.artical{
+
+    background-image: url('/Assetes/page1.png');
     border: 1px solid black;
-    /* padding:70px; */
-    /* box-sizing: border-box;
-    height: 50%; */
-      width: 50%;
+     padding: 80px;
+     box-sizing: border-box;
+     color: white;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border: 1px solid black;
+    color:white ;
 }
