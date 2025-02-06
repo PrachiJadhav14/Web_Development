@@ -58,16 +58,12 @@ a:hover{
 .header{
     font-family: 'Courier New', Courier, monospace;
 }
-footer{
-    border: 1px solid black;
-    background-color: #f3d099;
-    padding: 10px;
-}
+
 .link{
      padding: 5px;
 }
 .text-center{
-    border: 1px solid black;
+    /* border: 1px solid black; */
    
     text-align:start
 }
@@ -84,9 +80,9 @@ section{
 }
 .btn{
     width: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     color: white;
-    background-color: black;
+    /* background-color: black; */
     padding: 5px;
     margin: 6px;
 }
@@ -95,13 +91,13 @@ main .container{
     margin: 0px;
     width: 100%;
     z-index: 2;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     
 }
 .container iframe{
     width:inherit;
     object-fit: cover;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 0;
     margin: 0;
 
@@ -134,23 +130,34 @@ aside{
     /* border: 2px solid rgb(31, 83, 31); */
     height: inherit;
     width: 50%;
-    background-color: rgb(109, 168, 168);
+    padding: 40px;
+    background-color: #f8ecd7;
 }
 article{
-            border: 1px solid black;
+            /* border: 1px solid black; */
 }
 .artical{
 
     background-image: url('/Assetes/page1.png');
-    border: 1px solid black;
+    /* border: 1px solid black; */
      padding: 80px;
+     background-position: center;
      box-sizing: border-box;
      color: white;
+    background-size: cover; 
+    line-height: 1.2;
+    font-weight: 500;
 }
 .info{
     display: flex;
     justify-content: center;
     padding: 30px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     color:white ;
+    /* gap: 450%; */
+}
+footer{
+    /* border: 1px solid black; */
+    background-color: #f3d099;
+    padding: 10px;
 }
