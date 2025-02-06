@@ -1,10 +1,13 @@
 a:hover{
     text-decoration: none;
 }
+.container{
+    border: 1px;
+}
 .header{
     color:#fff;
     background-color: #f3d099;
- 
+     /* display: flex; */
 }
 #menu{
     list-style-type: none;
@@ -14,8 +17,7 @@ a:hover{
 #logo{
     margin:10px;
     font-size: 2rem;
-    padding: 15
-    mainpx;
+    padding: 15;
 }
 #menu li{
     display: inline-block;
@@ -41,7 +43,7 @@ a:hover{
 }
 main{
     background-image: url('/Assetes/About.jpg');
-    
+    background-size: cover; 
 }
 .main{
     display:flex;
@@ -68,6 +70,7 @@ section{
 }
 .artical{
     background-image: url('/Assetes/page1.png');
+    background-size: cover;
     border: 1px solid black;
      padding: 30px;
     text-align: center;
