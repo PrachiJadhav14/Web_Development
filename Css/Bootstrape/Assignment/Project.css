@@ -12,12 +12,13 @@ a:hover{
 #menu{
     list-style-type: none;
     margin: 0;
+   
     padding: 0;
 }
 #logo{
     margin:10px;
     font-size: 2rem;
-    padding: 15;
+    /* padding: 15; */
 }
 #menu li{
     display: inline-block;
@@ -26,7 +27,7 @@ a:hover{
 #menu li a{
     color:#fff;
     background-color: #f6bb87;
-    display: block;
+    display: inline-block;
     padding: 15px 10px;
     
 }
