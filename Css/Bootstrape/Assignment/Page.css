@@ -1,0 +1,17 @@
+.container-fluid{
+         border: 3px solid black;
+}
+.navbar-brand{
+   
+    padding: 40px;
+    box-sizing: border-box;
+}
+.navbar{
+  background-color: #f3d099;
+}
+/* #git{
+    border: 1px solid black;
+} */
+.bi bi-instagram{
+    border: 3px solid black;
+}
