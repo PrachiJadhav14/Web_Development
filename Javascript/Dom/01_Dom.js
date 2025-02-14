@@ -21,7 +21,6 @@
 //    console.dir(Element);
 //    console.log(Element);
 
-
 let Element = document.querySelector(".heading2");
 console.dir(Element);
 console.log(Element);
