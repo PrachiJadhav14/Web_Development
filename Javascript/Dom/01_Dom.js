@@ -22,10 +22,14 @@
 //    console.log(Element);
 
 
-let Element = document.querySelector(".heading2");
-console.dir(Element);
-console.log(Element);
+// let Element = document.querySelector(".heading2");
+// console.dir(Element);
+// console.log(Element);
 
-let Button = document.querySelector("#button");
-console.dir(Button);
-console.log(Button);
+// let Button = document.querySelector("#button");
+// console.dir(Button);
+// console.log(Button);
+
+let div = document.querySelector("div");
+console.dir(div);
+// console.log(div);
