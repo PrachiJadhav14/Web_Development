@@ -1,10 +1,12 @@
-body{
+body {
     background-color: aqua;
 }
-#heading{
+
+#heading {
     background-color: blueviolet;
 }
-button{
+
+button {
     background-color: blue;
     color: white;
 }
