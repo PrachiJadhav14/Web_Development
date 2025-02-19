@@ -7,6 +7,7 @@ btn1.onclick = () => {
     console.log(a);
 }
 
+
 // let div = document.querySelector("div");
 // div.onmouseover = () =>{
 //     console.log("You Are Inside div ");
