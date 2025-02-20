@@ -8,7 +8,7 @@ btn1.onclick = () => {
 }
 
 
-// let div = document.querySelector("div");
-// div.onmouseover = () =>{
-//     console.log("You Are Inside div ");
-// }
+let div = document.querySelector("div");
+div.onmousedown = () => {
+    console.log("You Are Inside Div");
+}
