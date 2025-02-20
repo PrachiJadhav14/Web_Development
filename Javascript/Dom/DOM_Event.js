@@ -5,6 +5,7 @@ btn1.onclick = () => {
     a++;
     console.log(a);
 }
+
 let div = document.querySelector("div");
 div.onmousedown = () => {
     console.log("You Are Inside Div");
