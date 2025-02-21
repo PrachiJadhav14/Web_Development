@@ -1,6 +1,5 @@
 let btn1 = document.querySelector("#btn1");
 
-
 ///EVENT_DOM_OBJECT
 
 // btn1.onclick = (evt) => {
