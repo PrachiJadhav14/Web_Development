@@ -27,9 +27,6 @@ let btn1 = document.querySelector("#btn1");
 //     console.log(evt.clientX, evt.clientY);
 ///
 
-
-
-
 btn1.addEventListener("Click", () => {
     console.log("button1 Was clicked");
 });
