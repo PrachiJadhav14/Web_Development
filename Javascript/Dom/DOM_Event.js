@@ -15,12 +15,14 @@ let btn1 = document.querySelector("#btn1");
 //     console.log(a);
 // }
 
-let div = document.querySelector("div");
-div.onmousedown = (evt) => {
-    console.log("You Are Inside Div");
-    console.log(evt);
-    console.log(evt.type);            //Type         
 
-    console.log(evt.target);         ///Target
-    console.log(evt.clientX, evt.clientY);
-}
+
+// let div = document.querySelector("div");
+// div.onmousedown = (evt) => {
+//     console.log("You Are Inside Div");
+//     console.log(evt);
+//     console.log(evt.type);            //Type         
+
+//     console.log(evt.target);         ///Target
+//     console.log(evt.clientX, evt.clientY);
+// }
