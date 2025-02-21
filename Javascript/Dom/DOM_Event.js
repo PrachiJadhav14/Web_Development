@@ -14,8 +14,6 @@ let btn1 = document.querySelector("#btn1");
 //     console.log(a);
 // }
 
-
-
 // let div = document.querySelector("div");
 // div.onmousedown = (evt) => {
 //     console.log("You Are Inside Div");
