@@ -30,8 +30,8 @@ let btn1 = document.querySelector("#btn1");
 
 
 
-btn1.addEventListener("Click",() => { 
+btn1.addEventListener("Click", () => {
     console.log("button1 Was clicked");
-  });
+});
 
 
