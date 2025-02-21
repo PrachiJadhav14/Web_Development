@@ -1,10 +1,11 @@
 let btn1 = document.querySelector("#btn1");
 
-btn1.onclick = (evt) => {
-    console.log(evt);
-    console.log(evt.type);            //Type         
-    console.log(evt.target);         ///Target
-    console.log(evt.clientX, evt.clientY);
+// btn1.onclick = (evt) => {
+//     console.log(evt);
+//     console.log(evt.type);            //Type         
+//     console.log(evt.target);         ///Target
+//     console.log(evt.clientX, evt.clientY);
+
     // console.log("btn1 Was Clicked");
     // let a = 25;
     // a++;
