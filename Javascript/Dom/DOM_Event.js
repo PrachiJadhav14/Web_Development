@@ -27,9 +27,32 @@ let btn1 = document.querySelector("#btn1");
 
 
 // Event Listener
-btn1.addEventListener("click",() => {
-    console.log("butoon1 was cliked");
-});
-btn1.addEventListener("click",() => {
-    console.log("butoon1 was cliked-handler1");
-});
+// addEventListener
+
+// btn1.addEventListener("click",() => {
+//     console.log("butoon1 was cliked");
+// });
+// btn1.addEventListener("click",() => {
+//     console.log("butoon1 was cliked-handler1");
+// });
+
+
+
+
+// removeEventListener
+ btn1.addEventListener("click",()  =>{
+    console.log("button1 was clickes-handler1");
+ });
+
+
+ btn1.addEventListener("click",() => { 
+    console.log("button was clicke-handle2");
+ });
+
+ btn1.addEventListener("click",()=> {
+    console.log("button 1 was clicked-handle3");
+ });
+
+ btn1.addEventListener("click",()=>{
+    console.log("button was clicked-handler4")
+ });
