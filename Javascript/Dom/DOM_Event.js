@@ -24,8 +24,12 @@ let btn1 = document.querySelector("#btn1");
 //     console.log(evt.clientX, evt.clientY);
 ///
 
-btn1.addEventListener("Click", () => {
-    console.log("button1 Was clicked");
+
+
+// Event Listener
+btn1.addEventListener("click",() => {
+    console.log("butoon1 was cliked");
 });
-
-
+btn1.addEventListener("click",() => {
+    console.log("butoon1 was cliked-handler1");
+});
