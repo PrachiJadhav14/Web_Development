@@ -54,21 +54,40 @@
 
 
 // Styling
-let div=document.querySelector("div");
-div.style.backgroundColor="black";
+// let div=document.querySelector("div");
+// div.style.backgroundColor="black";
+
+
+// Insert Element
+// let newbtn = document.createElement("button");
+// newbtn.innerText = "click Me!"
+// console.log(newbtn);
+
+
+// let  div = document.querySelector("div");
+// div.append(newbtn);
+
+// let div = document.querySelector("div");
+// div.prepend(newbtn);
+
+
+// let div=document.querySelector("div");
+// div.before(newbtn);
+
+// let div = document.querySelector("div");
+// div.after(newbtn);
+
+// let newHeading = document.createElement("h1");
+// newHeading.innerHTML = "<i>Hi, I am New !<i>";
+
+// document.querySelector("body").prepend(newHeading);
+
+
+// Element Remove
+  
+// let para = document.querySelector("p");
+// para.remove();
 
 
 
-let NewBtn = document.createElement("button");
-// NewBtn.innerText = "Click Me";
-console.log(NewBtn);
-
-
-
-
-
-
-
-
-
-
+// newHeading.remove(); // Remove The Heading
