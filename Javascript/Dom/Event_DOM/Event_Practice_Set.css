@@ -1,4 +1,8 @@
 .dark{
     background-color: black;
-    colo
+    color: white;
+}
+.light{
+    background-color: white;
+    color: black;
 }
