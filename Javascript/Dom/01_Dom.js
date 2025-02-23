@@ -33,6 +33,42 @@
 
 
 
-let div = document.querySelector("div");
-console.dir(div);
-console.log(div);
+// let div = document.querySelector("div");
+// console.dir(div);
+// console.log(div);
+
+
+// let para = document.querySelector("p");
+// console.log(para.getAttribute("class"));
+
+
+
+// getattribute
+// let heading=document.querySelector("h1");
+// console.log(heading.getAttribute("id"));
+
+
+// setattribute
+// let para = document.querySelector("p");
+// console.log(para.setAttribute("class","new class"));
+
+
+// Styling
+let div=document.querySelector("div");
+div.style.backgroundColor="black";
+
+
+
+let NewBtn = document.createElement("button");
+// NewBtn.innerText = "Click Me";
+console.log(NewBtn);
+
+
+
+
+
+
+
+
+
+
