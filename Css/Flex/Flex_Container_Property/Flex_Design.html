@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Design</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+    body{
+        margin:0px;
+    }
+    header{
+        background-color: rgba(102,234,107);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding:0.4rem;
+        text-transform:capitalize;
+        font-family:2rem;
+    }
+    nav{
+        display:flex;
+        justify-content:flex-end;
+        padding:1.5rem;
+        background-color:#f1f1f1;
+    }
+    nav a{
+        text-decoration:none;
+        padding:7px;
+        color:blacK;
+        Margin:0px 5px;
+    }
+    a:hover{
+        background-color:gray;
+        color:white;
+        border-radius: 3px;
+        box-shadow: 0rem 0.1rem 0.2rem rgba(0,0,0.2);
+    }
+    section{
+        display:flex;
+        padding: 10px;
+    }
+    section>div{
+        background-color:gray;
+        margin:5px;
+        height:300px;
+        flex-grow:1;
+    }
+    .grow-div{
+        flex-grow:4;
+    }
+    main{
+        display:flex;
+        border:1px;
+        padding:5px;
+        margin:5px;
+        background-color:rgb(203,192,192);
+    }
+    mai>div{
+        /* border:1px solid red;*/
+        width:100px;
+        flex-grow:1;
+    }
+    .main-div>div{
+        height:150px;
+        justify-content:center;
+        border:1px solid;
+        margin:20px;
+        background-color:rgb(184,140,226);
+    }
+    .main-div>div:hover{
+        background-color:bluevoilet;
+        border-radius:10px;
+    }
+  </style>
+  </head>
+</head>
+<body>
+    <header>
+        <p>Fork Infosystems</p>
+    </header>
+    <nav>
+        <div><a href="#">Home</a></div>
+        <div><a href="#">About</a></div>
+        <div><a href="#">Conten Us</a></div>
+        <div><a href="#">Help</a></div>
+    </nav>
+    <section>
+        <div></div>
+        <div class="grow-div"></div>
+        <div></div>
+    </section>
+    <main>
+         <div class="main-div">
+            <div></div>
+            <div></div>
+         </div>
+         <div class="main-div">
+            <div></div>
+            <div></div>
+         </div>
+         <div class="grow-div">
+            <div></div>
+            <div></div>
+         </div>
+        </section>
+        <main>
+            <div class="main-div">
+               <div></div>
+               <div></div>
+            </div>
+            <div class="main-div">
+               <div></div>
+               <div></div>
+            </div>
+            <div class="grow-div">
+               <div></div>
+               <div></div>
+            </div>
+           </section>
+      </main>
+</body>
+</html>
