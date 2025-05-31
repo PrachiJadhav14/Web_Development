@@ -40,22 +40,22 @@ let btn1 = document.querySelector("#btn1");
 
 
 // removeEventListener
- btn1.addEventListener("click",()  =>{
-    console.log("button1 was clickes-handler1");
- });
+btn1.addEventListener("click", () => {
+   console.log("button1 was clickes-handler1");
+});
 
 
- btn1.addEventListener("click",() => { 
-    console.log("button was clicke-handle2");
- });
+btn1.addEventListener("click", () => {
+   console.log("button was clicke-handle2");
+});
 
- const handle3 = ()=> {
-    console.log("button 1 was clicked-handle3");
- };
+const handle3 = () => {
+   console.log("button 1 was clicked-handle3");
+};
 
- btn1.addEventListener("click",()=>{
-    console.log("button was clicked-handler4")
- });
+btn1.addEventListener("click", () => {
+   console.log("button was clicked-handler4")
+});
 
 
- btn1.removeEventListener("click",handler3);
+btn1.removeEventListener("click", handler3);
