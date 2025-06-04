@@ -1,6 +1,4 @@
-
-
-        let age = 24;
+let age = 24;
          age = 67;
         age = 23;
         age = 44;
