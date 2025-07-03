@@ -88,6 +88,4 @@
 // let para = document.querySelector("p");
 // para.remove();
 
-
-
 // newHeading.remove(); // Remove The Heading
