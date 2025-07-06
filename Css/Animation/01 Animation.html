@@ -1,61 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animation</title>
     <style>
-        section{
+        section {
             padding: 20px;
             border: 1px solid black;
-            height: 600px; 
+            height: 600px;
             position: relative;
             color: aquamarine;
         }
-        .col{
+
+        .col {
             height: 150px;
             width: 150px;
-            background: linear-gradient(rgb(152, 83, 33),rgb(218, 19, 52));
+            background: linear-gradient(rgb(152, 83, 33), rgb(218, 19, 52));
             border-radius: 50%;
             margin: 15px;
             color: aquamarine;
-           position: absolute;  
+            position: absolute;
         }
-        .col01{
-                 top: 0px;
-                 left: 0px;
-                 right: 70%;
-                 animation-name: product;
-                 animation-duration: 7s;
-                 animation-iteration-count: 7;
+
+        .col01 {
+            top: 0px;
+            left: 0px;
+            right: 70%;
+            animation-name: product;
+            animation-duration: 7s;
+            animation-iteration-count: 7;
         }
-        .col02{
+
+        .col02 {
             top: 0px;
             right: 0%;
             left: 70%;
         }
-        .col03{
+
+        .col03 {
             right: 70%;
             left: 0px;
             top: 70%;
         }
-        .col04{
+
+        .col04 {
             top: 70%;
             right: 0%;
             left: 70%;
         }
+
         @keyframes product {
-            0%{
+            0% {
                 top: 70%;
                 left: 0%;
                 right: 70%;
             }
-            25%{
+
+            25% {
                 top: 70%;
                 left: 80;
                 right: 0%;
             }
-            50%{
+
+            50% {
                 top: 0%;
                 left: 70%;
                 right: 0%;
@@ -64,6 +73,7 @@
         }
     </style>
 </head>
+
 <body>
     <section>
         <div class="col col01"></div>
@@ -72,4 +82,5 @@
         <div class="col col04"></div>
     </section>
 </body>
+
 </html>
