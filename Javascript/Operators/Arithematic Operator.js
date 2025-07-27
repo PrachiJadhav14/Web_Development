@@ -30,4 +30,5 @@
   let b = --a;  //b= 9 , a = 9
   console.log(a); //9
   console.log(b);  //9
+  
 </script>
