@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management Portal</title>
+    <style>
+        body{
+             margin: 0;
+             padding:0;
+             background-image: url('../Assets/Hospital\ img\ 3.jpg');
+             background-size:cover;
+             background-color:#cccccc;
+             font-family:sans-serif;
+        }
+        .Registerbox{
+            box-sizing: border-box;
+            color:papayawhip;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 65%;
+            height: 90%;
+            backgroud: rgba(0, 0,0,.5);;
+            text-align: center;
+            font-size: bold;
+        }
+        .Registerbox input [type="text"],
+        .Registerbox input [type="Password"],
+        .Registerbox input [type="Number"]
+        
+        { 
+            border: none;
+            border-botom: 1px solid #fff;
+            background:transparent
+            height:20px;
+            color:"fff";
+            font-size:10px;
+            Margin-bpttom:20px;
+    
+
+        }
+        button:hover;
+            cursor:pointer;
+            background-color: tomato;
+            border-radius:20px;
+        }
+        .header{
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <section class="Resistrationbox">
+        <form action="">
+            <h1>Resistration Details</h1>
+
+            <label for="Name">Name:</label>
+            <input type="text" name="Name" id="Name"><br><br>
+
+            <label for="Mob">Mobile:</label>
+            <input type="Number" name="Password" id="Password"><br><br>
+
+            <label for="Email">Email:</label>
+            <input type="text" name="Email" id="Email"><br><br>
+
+            <label>Gender:</label>
+            <label for="Male">Male:</label>
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="Female">Female:</label>       
+             <input type="radio"  id="Female" name="Gender" value="Female"><br><br>
+           
+             
+
+             <label for="Address">Address:</label>
+             <input type="text" name="address" id="address"></input><br><br>
+
+             <label for="pword">Password:</label>
+             <input type="Password" name="Pword" id="Password"></input></br><br>
+
+
+             <button><a href="../Css/Form 3.html">Resistration</a></button>
+             <button>Reset</button>
+
+        </form>
+    </section>
+</body>
+</html>
