@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            background-color: blanchedalmond;
+            background-image: url('../Assets/light-image.avif');
+            background-size: cover;
+            font-family: sans-serif;
+    
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Fork Information</h1>
+        <form action="Resitration.php" method="" > 
+            <label for="Fname">First Name:</label> 
+            <input type="text" name="FirstName" id="Fname"><br><br>
+
+            <label for="Mname">Middle Name:</label> 
+            <input type="text" name="LastName" id="Lname"><br><br>
+
+            <label for="MobNo">Mobile No:</label> 
+            <input type="text" name="MobileNumber" id="MobNo"><br><br>
+
+            <label for="email">Email No:</label> 
+            <input for="text" name="EmailNo" id="emial"><br><br>
+
+            <label for="Address">Address:</label><br> 
+            <textarea for="text" name="Address" id="Address" cols="20" rows="3"></textarea><br><br>
+            
+            <label for="Gender">Gender:</label><br> 
+            <input type="radio" id="Male" name="Gender" value="Male"> 
+            <label for="Male">Male</label> 
+
+            <input type="radio" id="Female" name="Gender" value="female"> 
+            <label for="FeMale">FeMale</label>
+
+            <input type="radio" id="Other" name="Gender" value="Other">
+            <label for="Other">Other</label><br><br>
+
+            <label for="state">select state :</label><br>
+             <select name="selected state" id="state">
+
+                <option value="0">--Selected state--</option >
+                    <option value= "Maharashtra">Maharashtra</option>
+                    <option value= "Karanatak">Maharashtra</option>
+                    <option value= "Karanatak">Maharashtra</option>
+                    <option value= "Gujarat">Maharashtra</option><br><br>
+    </section>
+    <label for="language">select language :</label><br>
+    <input type="checkbox" name="lang" value="c" id="clang">
+    <input type="checkbox" name="lang" value="cpp" id="cpplang">
+    <label for="cpp lang">cpp</label>
+    <input type="checkbox" name="lang" value="python" id="cpplang">
+    <label for="python">python</label><br><br> 
+    <input type="Submit">
+
+</form>
+</body>
+</html>
