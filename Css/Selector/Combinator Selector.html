@@ -1,0 +1,103 @@
+<Doctype html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta  name="viewport" content="width=device-width,initial-scal=1.0">
+            <title>Combinator Selector</title>
+            <style>
+                body{
+                    margin :20;
+                }
+                #container{
+                    border:2px solid red;
+                    padding: 10PX;
+                    margin: 5px;
+                 }
+            .Main-Child-div{                              
+                 display: inline-block;
+                 border:2px solid red;
+                    padding: 10PX;
+                    margin: 5px;
+                 }
+                .Main-Child-div{
+                    display:inline-block;
+                    border:2px solid brown;
+                    width: 49px;
+                }
+                #container>section{
+                    border:1px; solid green;
+                    padding:20;
+                }
+                .main-one p{
+                    color:orange;
+                    text-align: center;
+                    padding:10px;
+                }
+                section>.container01{
+                    background-color:aqua;
+                }
+                .main div{
+                    background-color:gray; 
+                }
+                .main div>p{
+                    text-align: center;
+                    color:white;
+                }
+                section>.conatiner01{
+
+                }
+                section main{
+
+                }   
+            </style>
+        </head>
+        <body>
+            <h1>Combinator selector</h1>
+            <section id="Container"></section>
+            <section class="container01">
+             <main class="main-container main-container main-one">
+                <div id="div01" class="main-container Main-Child-div"></div>
+                 <p>Demo data 01</p>
+                 <p>Demo data 02</p>
+                 <p>Demo data 03</p>
+                 <p>Demo data 04</p>
+                <p>Demo data 05</p>
+             </div>
+             <div class="Main-Child-div">
+                <p>Text Data 01</p>
+                <p>Text Data 01</p>
+                <p>Text Data 01</p>                
+                <p>Text Data 01</p>
+                <p>Text Data 01</p>   
+            </div>
+            </main>
+            <section class="main-container 02">
+            <div class="Main-Child-div">
+                <div id="Div" class="Main-Child-div">
+                    <p>Demo data 01</p>
+                    <p>Demo data 02</p>
+                    <p>Demo data 03</p>
+                    <p>Demo data 04</p>
+                    <p>Demo data 05</p>
+                    </div>
+                    <div class="Main-Child-div">
+                       <p>Text Data 01</p>
+                       <p>Text Data 02</p>
+                       <p>Text Data 03</p>                
+                       <p>Text Data 04</p>
+                       <p>Text Data 05</p>   
+                    </div>
+                    </div>
+                </main>
+            </section>
+            <section class="container 02">
+                <artical>
+                    <img src="../Css/Dhoni.jpg" alt="msd" height="500px" width="500px">
+                    <div>
+                        <p>Lorem ipsum  dolor sit amet consectetur adipisicing elit.dolor,noatrum ducimus voluptatem sapiente hic reprehender eos nulla ipsa repudiandae dolore ullam,sit perspiciatis !libero dolore!</p>
+                    </div>
+                </artical>
+            </section>
+        </body>
+    </html>
+</Doctype>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Tag Selector</title>
+    <style>
+        body{
+            margin: 20px;
+            border: 5 px solid black;
+            text-align: center;
+            height: 20px;
+            width:300px;
+            padding: 5px;
+            color: white;
+        }
+        #sec02{
+            border: 2px soils purple;
+            padding: 2px;
+        }
+        main{
+            padding: 5px; 
+            background-color: olive;
+            display: inline-block;
+            border: 2px solid brown;
+        }
+        #sec02{
+            border: 2px solid purple;
+            padding:2px;
+        }
+        #sec04{
+            border: 2px solid purple;
+        }
+        #main{
+            background: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <section id="main">
+        <main class="main-one">
+            <section id ="sec01" class="main-child-div">
+                <div>Product Data 01</div>
+                <div>Product Data 02</div>
+                <div>Product Data 03</div>
+                <div>Product Data 04</div>
+                <div>Product Data 05</div> 
+            </section>
+            <section id="sec02"  class="main-child-div">
+                <div>Demo Data 01</div>
+			<div>Demo Data 02</div>
+			<div>Demo Data 03</div>
+			<div>Demo Data 04</div>
+			<div>Demo Data 05</div>
+            </section>
+            <main class="main-two">
+                <section id="sec03" class="main-child-div">
+                    <div>Product Data 01</div>
+                    <div>Product Data 02</div>
+                    <div>Product Data 03</div>
+                    <div>Product Data 04</div>
+                    <div>Product Data 05</div>
+                </section>
+                <section>
+                    <section id="sec04" class="main-child-div">
+                    <div>Product Data 01</div>
+                    <div>Product Data 02</div>
+                    <div>Product Data 03</div>
+                    <div>Product Data 04</div>
+                    <div>Product Data 05</div>
+                </section>
+            </main>
+        </section>
+        </main>
+    </section>
+</body>
+</html>
