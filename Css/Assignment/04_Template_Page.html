@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>CSS</title>
+	<style>
+		body{
+			border: solid black;
+			height: 100%;
+			width: 100%;
+			}
+		.sec01{
+				border:  solid navy;
+				height: 160px;
+				width: 100%;
+				background-image:linear-gradient(rgb(105, 18, 97),rgb(199, 106, 224),rgb(105, 18, 97));
+				font-size: 30px;
+			}
+		.sec01>section{
+				display: inline-block;
+				/* border: 1px solid gray; */
+				margin-left: 15px;
+			}
+			section>h1{
+				height: 80px;
+				width: 100%;
+				font-size: 25px;		
+			}
+			.head-01{
+				text-align: center;
+				margin-left:50px;
+			}
+			.head-01>h1{
+				padding-bottom: 25px;	
+			}
+			.head-02{
+				position: relative;	
+			}
+			.head-02>img{
+				margin-left: 1000px;
+			}
+			nav{
+				display:inline-block;
+				font-size:30px;
+				background-color: #f4b339;
+				height: 70px;
+				width: 100%;
+			}
+		nav>button{
+				margin: 25px 50px 30px 50px;
+				font-size:30px;
+			}
+		nav>button:hover{
+				border-radius: 20px;
+				background-color: #64cde2;
+		}
+		.sec02{
+				border: 2px solid maroon;
+				
+			}
+		section>div{
+				display: inline-block;
+				width: 750px;
+				height: 300px;
+				margin-left: 40px;
+			}
+		.pie-chart{
+				width:400px;
+				height:400px;
+				background:conic-gradient(#FF5722 28% 35%,#FFEB3B 35% 60%,#2196F3 60% 100%);
+				margin:10px;
+				display:inline-block;
+				border-radius:50%;
+			}
+		footer>ul>li{
+				list-style:none;
+				font-size:20px;		
+			}
+		footer{
+				background-color:rgb(300,200,100);
+			}
+		main{
+				height: 100%;
+				width: 100%;
+			}
+		main>div{
+				
+				display:inline-block;
+				width:32%;
+				height:100%;
+				border:2px solid black;
+				/* margin-bottom:20px; */
+				margin-left:9px;
+				text-align:center;
+				background-color: #278cba;
+			}		
+		p{
+				font-size: 25px;
+			}
+			
+		div>h3{
+				text-align:center;
+				width:80%;
+				height:20%;
+				background-color:rgb(216, 205, 239);
+				border:2px solid black;
+				color:navy;
+				padding:15px 30px;
+				
+				margin-left:13px;
+			}
+		.sec04{
+				border: 2px solid rgb(35, 32, 35);
+				height: 100%;
+				width: 100%;
+			}
+		.sec04>div{
+				display:inline-block;
+				width:200px;
+				height:100%;
+				background-color:rgb(73, 1, 117);
+				margin:10px 45px 10px 60px;
+				padding: 20px 30px 20px 50px;
+			}	
+		.sec04>div>input{
+				text-align:center;
+				margin: 5px;
+				padding: 10px;
+				width: 150px;
+				height: 60px;
+				font-size: 20px;
+				border:none;
+				background-color:rgb(222, 166, 200);
+				text-decoration:none;
+			}
+		.sec05{
+				width: 100%;
+				height: 100%;
+				background-image:linear-gradient(rgb(35, 207, 207),rgb(18, 192, 211),rgb(111, 208, 216),rgb(18, 192, 211),rgb(35, 207, 207));
+		}
+		.sec06>ul>li{
+			font-size: 30px;
+			font-weight: bold;
+		}	
+	</style>
+	
+</head>
+<body>
+	
+		<section class="sec01">
+			<section class="head-01">
+				<h1>Fork Infosystem</h1>
+			</section>
+			<section class="head-02">
+				<img src="..\../Assets/Fork Infosystems.jpg" height="150px" width="150px">
+	      	</section>
+		</section>
+		  <nav>
+			<button>Home</button>
+			<button>About</button>
+			<button>Contact</button>
+			<button>Help</button>
+		  </nav>
+		
+		  <section class="sec02">
+			<div>
+				<img src="..\../Assets/Fork Infosystems.jpg" height="400px" width="400px" alt="Class Image">
+			</div>
+			<div>
+				<div class="pie-chart"></div>
+			</div>
+		  </section>
+	        <article>
+		       
+			 <main>
+			      	 <div>
+						<div><h3 style="font-size: 20px;">C</h3></div>
+						<img src="../../Assets/C.png" height="100px" width="100px">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga et pariatur magni fugiat. Obcaecati eaque incidunt illo porro quaerat nostrum aliquam, vel quam odio modi blanditiis placeat exercitationem nesciunt repellendus?</p>
+					 </div>
+			      	 <div>
+						<div><h3 style="font-size: 20px;">C++</h3></div>
+						<img src="../../Assets/C++Logo.png" height="100px" width="100px">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga et pariatur magni fugiat. Obcaecati eaque incidunt illo porro quaerat nostrum aliquam, vel quam odio modi blanditiis placeat exercitationem nesciunt repellendus?</p>
+					 </div>
+			      	 <div>
+						<div><h3 style="font-size: 20px;">WEB Development</h3></div>
+						<img src="../../Assets/java.png" height="100px" width="100px">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga et pariatur magni fugiat. Obcaecati eaque incidunt illo porro quaerat nostrum aliquam, vel quam odio modi blanditiis placeat exercitationem nesciunt repellendus?</p>
+					 </div>
+			 </main>
+	        </article>
+
+		  <section class="sec04">	
+			<div class="activity">
+				<input type="button" value="Events">
+			</div>
+			<div class="activity">
+				<input type="button" value="Seminar">
+			</div>
+			<div class="activity">
+				<input type="button" value="Guest">
+			</div>
+			<div class="activity">
+				<input type="button" value="Workshop">
+			</div>
+		  </section>
+
+		  <section class="sec05">	
+			<div>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odio ab ea explicabo. Illo, corporis magni? Rerum itaque laudantium velit, inventore, atque non reprehenderit quis sint expedita cum, doloribus voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptas aliquid ipsam quos in recusandae quisquam velit minus, expedita vel impedit quas assumenda quia quae hic sit temporibus nam rem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam deserunt architecto ipsam repellendus necessitatibus reiciendis rem cum ipsum autem vel aliquam neque illo, natus, amet enim quaerat omnis. Fugiat, accusamus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate obcaecati qui praesentium fugit quia, suscipit aliquid odit rem porro voluptas dignissimos accusamus natus consectetur minus, eveniet ex facere? A, impedit?</p>
+			</div>
+		</section>
+		 <footer class="sec06">	
+			<ul>
+				<li >Knowledge is interrelated!!!</li>
+				<li>Fork Infosystem</li>
+				<li>Karad</li>
+				<li>5768790356</li>
+			</ul>
+		  </footer>
+	
+</body>
+</html>
