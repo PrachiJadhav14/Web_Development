@@ -34,15 +34,33 @@
 
 
 // Function Anonemous
-   const MyFunction = function (MyArr){
-    var Sum = 0;
-    for(let i = 0; i <= MyArr.length - 1; i++)
-    {
-        Sum += MyArr[i];
-    }
-    return Sum;
-   };
+//    const MyFunction = function (MyArr){
+//     var Sum = 0;
+//     for(let i = 0; i <= MyArr.length - 1; i++)
+//     {
+//         Sum += MyArr[i];
+//     }
+//     return Sum;
+//    };
 
-   var x = [10,20,30,40,50,60];
-   var Result = MyFunction(x);
-   console.log(Result);
+//    var x = [10,20,30,40,50,60];
+//    var Result = MyFunction(x);
+//    console.log(Result);
+
+
+
+
+function Sum(x,y){
+    let  z = x+ y;
+    return z; 
+}
+
+function Sub(x,y){
+    let z = x + y;
+    return z;
+}
+
+console.log(Sum(10,20));
+console.log(Sum(10,5));
+
+
