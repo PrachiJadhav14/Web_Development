@@ -10,8 +10,6 @@
         sendFunction(sum);
         
     }
-
-
     sum(10,60,Display);
 
 
