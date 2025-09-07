@@ -14,37 +14,63 @@
     // var x = [10,20,30,40,50,60,60];
     // MyFunction(x);
 
+ 
+// function Sum(a,b){                Function Defination    
+//     return a + b;                    Function  body
+// }
+
+// var  s = Sum(10,20);            Function  Call
+// console.log(s);
 
 
 
+// function Sum(a,b){              //Function Defination
+//     return a + b;               // Function Body
+// }
+// console.log(Sum(10,20));         //Function Call
 
 
 
+////Ananemous Function
+
+// const MyFunction = function(MyArr){
+//     console.log(MyArr);
+// }
+
+// var x = [10,20,30,40];
+// MyFunction(x);
 
 
+const MyFunction = function (MyArr){
+    var sum = 0;
+     for(let i = 0; i <= MyArr.length-1; i++)
+     {
+        sum += MyArr[i];
+     }
+     return sum;
+};
 
-
-
-
-
-
+var x = [10,20,30,40];
+var y = [10,20,30,40,50];
+var Result = MyFunction(y);
+console.log(Result);
 
 
 /// FAT ARROW FUNCTION
-    const ReturnSquare = function (val){
-    let NewArr = [];
+    // const ReturnSquare = function (val){
+    // let NewArr = [];
 
-        for (let i = 0; i <= val.length - 1;i++)
-        {
+    //     for (let i = 0; i <= val.length - 1;i++)
+    //     {
 
-            console.log(val);
-            NewArr[i] = val[i] * val[i];
+    //         console.log(val);
+    //         NewArr[i] = val[i] * val[i];
            
-        }
-         return NewArr;
-    }
-    var x = [10,20,30,40,];
-    var Result = ReturnSquare(x);
-    console.log(ReturnSquare(x));
+    //     }
+    //      return NewArr;
+    // }
+    // var x = [10,20,30,40,];
+    // var Result = ReturnSquare(x);
+    // console.log(ReturnSquare(x));
 
 </script>
