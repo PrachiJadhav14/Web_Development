@@ -1,20 +1,19 @@
 body {
-    background-color: aqua;
+  background-color: aqua;
 }
 
-
 #heading {
-    background-color: blueviolet;
+  background-color: blueviolet;
 }
 
 button {
-    background-color: blue;
-    color: white;
+  background-color: blue;
+  color: white;
 }
 
-.div{
-    height: 400px;;
-    width: 100px;
-    background-color: blueviolet;
-    color: white;
+.div {
+  height: 400px;
+  width: 100px;
+  background-color: blueviolet;
+  color: white;
 }
