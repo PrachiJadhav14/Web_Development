@@ -13,7 +13,6 @@
     sum(10,60,Display);
 
 
-
 //     2)
     
 //    function Display(X){
