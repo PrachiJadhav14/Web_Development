@@ -4,7 +4,6 @@ let person = {
     city: "pune",
     isStudent:true
 };
-
 console.log(person);
 // console.log(typeof(person));
 //  console.log(typeof(person.name));
