@@ -61,5 +61,5 @@ function Sub(x,y){
 
 console.log(Sum(10,20));
 console.log(Sum(10,5));
-
+ print("Hello");
 
