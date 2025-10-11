@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <img src="../Motu img.jpg" alt="Motuimg">
+   <div>
+    <form action="">
+        <h2>This is Form</h2>
+        <input type="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       
+        <input type="button" value="Login"><br><br>
+
+    </form>
+   </div>
+
+   <button onclick="changePropa()">Chnage Property</button>
+
+   <script>
+    function changePropa(){
+        window.document.images[0].width = 500;
+        window.document.images[0].height = 500;
+          window.document.forms[0].elements[1].value = "Register";
+    }
+   </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Form</title>
+</head>
+<body>
+    <form action="">
+        <input type="text" value="Enter Name"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="text" value="Enter Email"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <button onclick="ChangeValue()">Click Me</button>
+    </form>
+
+    <script>
+      function ChangeValue(){
+         document.forms[0].elements[1].value = "Fork Infosystems@123";
+      }
+    </script>
+
+</body>
+</html>
