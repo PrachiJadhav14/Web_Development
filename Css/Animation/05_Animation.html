@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Flip Card Row</title>
+  <style>
+    /* Parent container to align cards in one row */
+    .row {
+      display: flex;
+      flex-wrap: wrap;      /* allows wrapping on small screens */
+      justify-content: center;
+      gap: 20px;            /* spacing between cards */
+      padding: 20px;
+    }
+
+    .maincontainer{
+      position: relative;
+      width: 90%;
+      max-width: 250px;     /* limit card width */
+      aspect-ratio: 3 / 4;  /* keeps card proportion */
+    }
+
+    .thecard{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      transition: all 0.5s ease;
+    }
+
+    .thecard:hover{
+      transform: rotateY(180deg);
+    }
+
+    .thefront, .theback{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .thefront{
+      background: #ffc728;
+      color: #333;
+    }
+
+    .theback{
+      background: cyan;
+      color: #333;
+      transform: rotateY(180deg);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .thefront img{
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    h1, h3{
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="row">
+    <div class="maincontainer">
+      <div class="thecard">
+        <div class="thefront">
+          <h1>Fork Infosystem</h1>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq4FK-H-yNLJB0yOZxJ9y9OW6o9JCouaM-rw&s" alt="Fork Infosystem">
+        </div>
+        <div class="theback">
+          <h1 style="color:crimson;">Fork Infosystem</h1>
+          <h3 style="color:darkorange;">Welcome To Fork Infosystem</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="maincontainer">
+      <div class="thecard">
+        <div class="thefront">
+          <h1>Fork Infosystem</h1>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq4FK-H-yNLJB0yOZxJ9y9OW6o9JCouaM-rw&s" alt="Fork Infosystem">
+        </div>
+        <div class="theback">
+          <h1 style="color:crimson;">Fork Infosystem</h1>
+          <h3 style="color:darkorange;">Welcome To Fork Infosystem</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="maincontainer">
+      <div class="thecard">
+        <div class="thefront">
+          <h1>Fork Infosystem</h1>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq4FK-H-yNLJB0yOZxJ9y9OW6o9JCouaM-rw&s" alt="Fork Infosystem">
+        </div>
+        <div class="theback">
+          <h1 style="color:crimson;">Fork Infosystem</h1>
+          <h3 style="color:darkorange;">Welcome To Fork Infosystem</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="maincontainer">
+      <div class="thecard">
+        <div class="thefront">
+          <h1>Fork Infosystem</h1>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq4FK-H-yNLJB0yOZxJ9y9OW6o9JCouaM-rw&s" alt="Fork Infosystem">
+        </div>
+        <div class="theback">
+          <h1 style="color:crimson;">Fork Infosystem</h1>
+          <h3 style="color:darkorange;">Welcome To Fork Infosystem</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
