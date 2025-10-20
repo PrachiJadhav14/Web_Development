@@ -6,7 +6,7 @@
 
 
 let i,j;
-let pattern = "";
+let Triangle = "";
 
 for(i=1;i<=5;i++){
 
@@ -14,9 +14,9 @@ for(i=1;i<=5;i++){
 
         if(i>=j)
         {
-            pattern = pattern + " * ";
+            Triangle = Triangle + " * ";
         }
     }
-    console.log(pattern);
-    pattern="";
+    console.log(Triangle);
+    Triangle="";
 }
