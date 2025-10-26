@@ -2,4 +2,8 @@
    let Num = 123;
    let sum = 0;
 
-   while
+   while(Num>0){
+      sum +=Num%10;
+      Num = Math.floor(Num/10);
+   }
+   console.log("Sum Og Digits => ",sum);
