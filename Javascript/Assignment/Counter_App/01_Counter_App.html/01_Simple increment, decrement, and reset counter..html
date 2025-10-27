@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+</head>
+<body>
+    <h1> Student Marks </h1>
+    <p id="mark">70</p>
+    <button onclick="plusCount()">Count ++</button>
+    <button onclick="negativeCount()">Count --</button>
+  
+    <script>
+        function plusCount(){
+            let count1 = document.getElementById("mark");
+            let marks = parseInt(count1.innerText);
+            marks++;
+            count1.innerText = marks;
+        
+        }
+
+      function  negativeCount(){
+            let count1 = document.getElementById("mark");
+           let marks = parseInt(count1.innerText);
+           marks--;
+           count1.innerText = marks;
+        }
+    </script>
+</body>
+</html>
