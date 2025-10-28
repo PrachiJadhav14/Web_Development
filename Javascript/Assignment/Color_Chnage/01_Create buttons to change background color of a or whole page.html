@@ -1,0 +1,35 @@
+<!-- Create buttons to change background color of a <div> or whole page. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chnage Backgroud Color</title>
+</head>
+<body>
+       <h1>Fork Infosystems</h1>
+       <div id="colorBox" style="width: 300px; height: 300px; border:2px solid black">
+        This is Div
+       </div>
+
+       <button  onclick="changeDivColor('lightblue')">Div Blue</button>
+       <button  onclick="changeDivColor('lightgreen')">Div Green</button>
+       <button  onclick="changeDivColor('lightpink')">Div Pink</button>
+       <br><br>
+       <button  onclick="changepagecolor('yellow')">Page yellow</button>
+       <button  onclick="changepagecolor('lightgreen')">Page Green</button>
+       <button  onclick="changepagecolor('white')">Reset Page</button>
+
+       <script>
+        function changeDivColor(color){
+            document.getElementById("colorBox").style.backgroundColor = color;
+        }
+
+        function changepagecolor(color){
+            document.body.style.backgroundColor = color;
+        }
+       </script>
+</body>
+</html>
