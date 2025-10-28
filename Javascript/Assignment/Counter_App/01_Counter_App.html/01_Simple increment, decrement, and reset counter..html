@@ -10,6 +10,8 @@
     <p id="mark">70</p>
     <button onclick="plusCount()">Count ++</button>
     <button onclick="negativeCount()">Count --</button>
+    <button onclick="resetcount()">Reset Counter</button>
+
   
     <script>
         function plusCount(){
@@ -25,6 +27,10 @@
            let marks = parseInt(count1.innerText);
            marks--;
            count1.innerText = marks;
+        }
+        function resetcount(){
+             let count1 = document.getElementById("mark");
+            count1.innerText = 70;
         }
     </script>
 </body>
