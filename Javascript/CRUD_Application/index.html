@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+            width: 500px;
+            margin-top: 10px;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 6px;
+        }
+
+        th {
+            background-color: rgb(93, 88, 88);
+        }
+    </style>
+</head>
+
+<body onload="loadstudent()">
+    <h2>Student List</h2>
+    <table>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Marks</th>
+        </tr>
+        </tbody>
+          <tbody id="studentBody"></tbody>
+        </tbody>
+    </table>
+
+    <h3>Add New Student</h3>
+    <form action="" onsubmit="addstudent(); return false;">
+        <input type="number" name="" id="roll" placeholder="Enter Roll No">
+        <input type="text" name="" id="name" placeholder="Enter Name">
+        <input type="number" name="" id="mark" placeholder="Enter No">
+        <button type="submit">Add New Record</button>
+
+    </form>
+    <script>
+        var Student = [
+            { roll: 1, name: "Adhira", marks: 80 },
+            { roll: 2, name: "Vedhashree", marks: 90 },
+            { roll: 3, name: "Ananya", marks: 95 },
+            { roll: 4, name: "Snehana", marks: 90 }
+        ]
+
+        function loadstudent() {
+            var body = document.getElementById("studentBody");
+            body.innerText = "";
+            for (let s of Student) {
+                body.innerHTML += `
+                <tr>
+                    <td>${s.roll}</td>
+                    <td>${s.name}</td>
+                    <td>${s.marks}</td>
+            </tr>
+                        `;
+
+            }
+
+        }
+        function addstudent(){
+            var rollInput = document.getElementById("roll");
+            var nameInput = document.getElementById("name");
+            var markInput = document.getElementById("mark");
+
+           var newStudent = {
+                roll : parseInt(rollInput.value),
+                name : nameInput.value,
+                marks :parseInt(markInput.value)
+           }
+           Student.push(newStudent);
+            
+           loadstudent();
+
+           rollInput.value ="";
+           nameInput.value ="";
+           markInput.value = "";
+        }
+    </script>
+</body>
+
+</html>
