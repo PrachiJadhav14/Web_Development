@@ -6,6 +6,7 @@ let student = {
     address: {
         city: "Karad",
         state: "Maharashtra",
+       
         pin: 415110
     }
 };
