@@ -28,7 +28,7 @@
   {/* //   Pre Decrement */}
   var a = 10;
   let b = --a;  //b= 9 , a = 9
-  console.log(a); //9
+  console.log(a); //955t
   console.log(b);  //9
   
 </script>
