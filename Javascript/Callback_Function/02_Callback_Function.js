@@ -1,5 +1,4 @@
-
- function Display(X){
+function Display(X){
   
        console.log("Value Of X :",X);
     }
