@@ -1,5 +1,6 @@
 <script>
      var Num = [10,23,34,91,22];
+     
     //  console.log(Num.length);
 
      for(let i = 0; i<=Num.length -1; i++)
