@@ -39,6 +39,7 @@
          // 4th EX =>
 
         var x = "12345"
+
         var temp ="";
         console.log(x.length);
         for(let i = x.length -1; i >= 0; i--)
