@@ -2,7 +2,6 @@ function Display(X){
   
        console.log("Value Of X :",X);
     }
-
     function sum(a,b,sendFunction){
 
         let sum = a + b;
