@@ -6,6 +6,7 @@
      for(let i = 0; i<= Num.length -1; i++)
      
        {
+        
               if(Num[i] % 2 == 0)
                 {
                     console.log(`Given Number is Even = ${Num[i]}`);
