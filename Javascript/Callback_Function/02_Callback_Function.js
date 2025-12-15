@@ -1,5 +1,4 @@
 function Display(X){
-  
        console.log("Value Of X :",X);
     }
     function sum(a,b,sendFunction){
