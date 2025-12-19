@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Skills Section</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#ffffff;
+    color:#222;
+}
+.education-section{
+    padding:60px 20px;
+    background:#ffffff;
+}
+
+.section-title{
+    text-align:center;
+    font-size:32px;
+    margin-bottom:40px;
+    color:#111;
+    position:relative;
+}
+
+.section-title::after{
+    content:'';
+    width:60px;
+    height:4px;
+    background:#00bfa6;
+    display:block;
+    margin:10px auto 0;
+    border-radius:10px;
+}
+
+.education-grid{
+    max-width:1100px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px,1fr));
+    gap:25px;
+}
+
+/* Card */
+.edu-card{
+    background:#f9f9f9;
+    padding:25px;
+    border-radius:16px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:all 0.35s ease;
+    border:2px solid transparent;
+    animation:fadeUp 0.9s ease forwards;
+}
+
+.edu-card:hover{
+    transform:translateY(-12px) scale(1.02);
+    box-shadow:0 25px 45px rgba(0,0,0,0.15);
+    border-color:#00bfa6;
+}
+
+.edu-card h3{
+    font-size:18px;
+    color:#00bfa6;
+    margin-bottom:8px;
+}
+
+.edu-card .institute{
+    font-weight:600;
+    color:#222;
+    margin-bottom:6px;
+}
+
+.edu-card .score{
+    color:#444;
+    font-size:14px;
+    margin-bottom:6px;
+}
+
+.edu-card .duration,
+.edu-card .location{
+    font-size:13px;
+    color:#666;
+}
+
+/* Animation */
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+
+.experience-section{
+    padding:60px 10%;
+}
+
+.title{
+    text-align:center;
+    font-size:32px;
+    margin-bottom:60px;
+    position:relative;
+}
+
+.title::after{
+    content:'';
+    width:60px;
+    height:4px;
+    background:#0ea5e9;
+    display:block;
+    margin:10px auto 0;
+    border-radius:2px;
+}
+
+.timeline{
+    position:relative;
+}
+
+.timeline::before{
+    content:'';
+    position:absolute;
+    left:50%;
+    top:0;
+    width:3px;
+    height:100%;
+    background:#0ea5e9;
+    transform:translateX(-50%);
+}
+
+.timeline-item{
+    width:50%;
+    padding:20px 40px;
+    position:relative;
+}
+
+.timeline-item.left{
+    left:0;
+    text-align:right;
+}
+
+.timeline-item.right{
+    left:50%;
+}
+
+.timeline-item::before{
+    content:'';
+    position:absolute;
+    top:30px;
+    width:16px;
+    height:16px;
+    background:#ffffff;
+    border:3px solid #0ea5e9;
+    border-radius:50%;
+    z-index:1;
+}
+
+.timeline-item.left::before{
+    right:-8px;
+}
+
+.timeline-item.right::before{
+    left:-8px;
+}
+
+.content{
+    background:#f9f9f9;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.content:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 40px rgba(0,0,0,0.12);
+}
+
+.content h3{
+    color:#0ea5e9;
+    margin-bottom:5px;
+}
+
+.content h4{
+    font-size:16px;
+    margin-bottom:5px;
+}
+
+.content span{
+    font-size:13px;
+    color:#666;
+}
+
+.content ul{
+    margin-top:15px;
+    padding-left:20px;
+}
+
+.content ul li{
+    font-size:14px;
+    margin-bottom:8px;
+    line-height:1.6;
+}
+
+/* Responsive */
+@media(max-width:900px){
+    .timeline::before{
+        left:20px;
+    }
+
+    .timeline-item{
+        width:100%;
+        padding-left:60px;
+        padding-right:20px;
+        text-align:left;
+        left:0 !important;
+    }
+
+    .timeline-item::before{
+        left:12px !important;
+    }
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body{
+    background:#f9fafb;
+    padding:40px;
+    color:#0f172a;
+}
+
+/* GRID */
+.skills-grid{
+    max-width:1300px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
+    gap:28px;
+}
+
+/* CARD */
+.card{
+    background:#ffffff;
+    border-radius:18px;
+    padding:26px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* TITLE */
+.card h3{
+    font-size:18px;
+    margin-bottom:18px;
+    color:#0f172a;
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+/* ITEM */
+.item{
+    background:#f1f5f9;
+    border-radius:12px;
+    padding:12px 16px;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:12px;
+    transition:.3s;
+}
+
+.item:hover{
+    background:#e2e8f0;
+}
+
+/* ICON */
+.icon{
+    width:34px;
+    height:34px;
+    border-radius:10px;
+    background:#0ea5e9;
+    color:#fff;
+    font-weight:600;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:13px;
+}
+
+.item span{
+    font-size:15px;
+    font-weight:500;
+}
+.education-section{
+    background:#ffffff;
+    padding:60px 20px;
+    font-family:Arial, sans-serif;
+}
+
+.edu-title{
+    text-align:center;
+    font-size:32px;
+    margin-bottom:40px;
+    color:#111;
+    position:relative;
+}
+
+.edu-title::after{
+    content:'';
+    width:60px;
+    height:4px;
+    background:#00c9a7;
+    display:block;
+    margin:10px auto 0;
+    border-radius:10px;
+}
+
+.edu-wrapper{
+    max-width:1100px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(320px,1fr));
+    gap:30px;
+}
+
+.edu-box{
+    background:#f8f9fa;
+    padding:28px;
+    border-radius:18px;
+    border:2px solid transparent;
+    box-shadow:0 12px 30px rgba(0,0,0,0.08);
+    transition:all 0.35s ease;
+    animation:fadeUp 0.8s ease forwards;
+}
+
+.edu-box:hover{
+    transform:translateY(-10px);
+    border-color:#00c9a7;
+    box-shadow:0 25px 50px rgba(0,0,0,0.15);
+}
+
+.edu-box h3{
+    color:#00c9a7;
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.college{
+    font-weight:600;
+    color:#222;
+    margin-bottom:6px;
+}
+
+.year,
+.place,
+.score{
+    display:block;
+    font-size:14px;
+    color:#555;
+    margin-top:4px;
+}
+
+/* Animation */
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="skills-grid">
+
+    <!-- Frameworks -->
+    <div class="card">
+        <h3>&lt;/&gt; Frameworks</h3>
+        <div class="item"><div class="icon">L</div><span>Laravel</span></div>
+        <div class="item"><div class="icon">CI</div><span>CodeIgniter</span></div>
+        <div class="item"><div class="icon">Y</div><span>Yii2</span></div>
+        <div class="item"><div class="icon">R</div><span>React.js</span></div>
+        <div class="item"><div class="icon">N</div><span>Next.js</span></div>
+        <div class="item"><div class="icon">B</div><span>Bootstrap</span></div>
+    </div>
+
+    <!-- Programming Languages -->
+    <div class="card">
+        <h3>⌘ Programming Languages</h3>
+        <div class="item"><div class="icon">PHP</div><span>PHP</span></div>
+        <div class="item"><div class="icon">JS</div><span>JavaScript</span></div>
+        <div class="item"><div class="icon">TS</div><span>TypeScript</span></div>
+        <div class="item"><div class="icon">C</div><span>C</span></div>
+        <div class="item"><div class="icon">C++</div><span>C++</span></div>
+    </div>
+
+    <!-- Databases -->
+    <div class="card">
+        <h3>🗄 Databases</h3>
+        <div class="item"><div class="icon">SQL</div><span>MySQL</span></div>
+        <div class="item"><div class="icon">PG</div><span>PostgreSQL</span></div>
+        <div class="item"><div class="icon">DB</div><span>NoSQL</span></div>
+    </div>
+
+    <!-- UI Technologies -->
+    <div class="card">
+        <h3>✏ UI Technologies</h3>
+        <div class="item"><div class="icon">H5</div><span>HTML5</span></div>
+        <div class="item"><div class="icon">C3</div><span>CSS3</span></div>
+        <div class="item"><div class="icon">JS</div><span>JavaScript</span></div>
+        <div class="item"><div class="icon">jq</div><span>jQuery</span></div>
+        <div class="item"><div class="icon">B</div><span>Bootstrap</span></div>
+        <div class="item"><div class="icon">AJ</div><span>AJAX</span></div>
+    </div>
+
+    <!-- Tools -->
+    <div class="card">
+        <h3>🛠 Tools</h3>
+        <div class="item"><div class="icon">G</div><span>Git</span></div>
+        <div class="item"><div class="icon">GH</div><span>GitHub</span></div>
+        <div class="item"><div class="icon">D</div><span>Docker</span></div>
+        <div class="item"><div class="icon">J</div><span>Jira</span></div>
+        <div class="item"><div class="icon">X</div><span>XAMPP</span></div>
+        <div class="item"><div class="icon">VS</div><span>Visual Studio Code</span></div>
+    </div>
+
+    <!-- Concepts -->
+    <div class="card">
+        <h3>📘 Concepts</h3>
+        <div class="item"><div class="icon">MVC</div><span>MVC</span></div>
+        <div class="item"><div class="icon">OOP</div><span>OOP</span></div>
+        <div class="item"><div class="icon">API</div><span>REST APIs</span></div>
+        <div class="item"><div class="icon">AG</div><span>Agile Development</span></div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<section class="experience-section">
+    <h2 class="title">Experience</h2>
+
+    <div class="timeline">
+
+        <!-- Experience 1 -->
+        <div class="timeline-item left">
+            <div class="content">
+                <h3>Web Developer</h3>
+                <h4>Collab Solutions Private Ltd</h4>
+                <span>2023 – 2024</span>
+
+                <ul>
+                    <li>Developed and maintained scalable web applications using Laravel, PHP, and MySQL.</li>
+                    <li>Improved performance by 30% using optimized queries and caching.</li>
+                    <li>Built and integrated RESTful APIs for third-party services.</li>
+                    <li>Implemented authentication, authorization, and RBAC security.</li>
+                    <li>Worked with Blade, Bootstrap, JavaScript, and jQuery.</li>
+                    <li>Used Git for version control and deployment workflows.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="timeline-item right">
+            <div class="content">
+                <h3>Web Developer (Internship)</h3>
+                <h4>Global India Business Forum (GIBF)</h4>
+                <span>Internship</span>
+
+                <ul>
+                    <li>Worked on official website: <b>gibf.biz</b></li>
+                    <li>Designed and updated web pages using HTML, CSS, Bootstrap, and JavaScript.</li>
+                    <li>Implemented responsive layouts and cross-browser compatibility.</li>
+                    <li>Assisted in debugging, performance tuning, and optimization.</li>
+                    <li>Learned Git, web hosting basics, and professional teamwork.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <section class="education-section">
+    <h2 class="section-title">Education</h2>
+
+    <div class="education-grid">
+
+        <!-- MCA -->
+        <div class="edu-card">
+            <h3>🎓 Master of Computer Application (MCA)</h3>
+            <p class="institute">International Institute of Management Science</p>
+            <p class="duration">2024 – Present</p>
+            <p class="location">Chinchwad, Pune</p>
+        </div>
+
+        <!-- BCA -->
+        <div class="edu-card">
+            <h3>🎓 Bachelor of Computer Application (BCA)</h3>
+            <p class="institute">Sadguru Gadge Maharaj College</p>
+            <p class="score">Percentage: 75%</p>
+            <p class="duration">2021 – 2024</p>
+            <p class="location">Vidyanagar, Karad</p>
+        </div>
+
+        <!-- HSC -->
+        <div class="edu-card">
+            <h3>🏫 Higher Secondary School (HSC)</h3>
+            <p class="institute">Sadguru Gadge Maharaj College</p>
+            <p class="score">Percentage: 84%</p>
+            <p class="duration">2020 – 2021</p>
+            <p class="location">Vidyanagar, Karad</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="education-section">
+    <h2 class="edu-title">Education</h2>
+
+    <div class="edu-wrapper">
+
+        <div class="edu-box">
+            <h3>🎓 Master of Computer Application (MCA)</h3>
+            <p class="college">International Institute of Management Science</p>
+            <span class="year">2024 – Present</span>
+            <span class="place">Chinchwad, Pune</span>
+        </div>
+
+        <div class="edu-box">
+            <h3>🎓 Bachelor of Computer Application (BCA)</h3>
+            <p class="college">Sadguru Gadge Maharaj College</p>
+            <span class="year">2021 – 2024</span>
+            <span class="place">Vidyanagar, Karad</span>
+            <span class="score">Percentage: 75%</span>
+        </div>
+
+        <div class="edu-box">
+            <h3>🏫 Higher Secondary School (HSC)</h3>
+            <p class="college">Sadguru Gadge Maharaj College</p>
+            <span class="year">2020 – 2021</span>
+            <span class="place">Vidyanagar, Karad</span>
+            <span class="score">Percentage: 84%</span>
+        </div>
+
+    </div>
+</section>
+
+</section>
+</body>
+</html>
+
+
