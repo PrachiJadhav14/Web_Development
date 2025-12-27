@@ -3,7 +3,6 @@
     // var Student01 = [10,20,30,40,50,60,70];
     // var x = Student01[2];
     // console.log(x);
-
     //For Loop
          // var j =10;
          // var Sum = 0;
