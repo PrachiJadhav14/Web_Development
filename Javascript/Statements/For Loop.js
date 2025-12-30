@@ -36,8 +36,6 @@
                //  console.log(sum);
 
          // 4th EX =>
-
-          
         var x = "12345"
 
         var temp ="";
