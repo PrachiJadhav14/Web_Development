@@ -1,4 +1,3 @@
-
 let age = 24;
 age = 67;
 age = 23;
