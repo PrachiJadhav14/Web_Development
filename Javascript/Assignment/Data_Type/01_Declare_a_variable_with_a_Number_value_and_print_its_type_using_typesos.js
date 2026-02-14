@@ -5,7 +5,6 @@ var num = 1455;
 console.log(num);
 console.log(typeof(num));
 
-
 let age = 20;
 age= 21;   
 console.log(age);
