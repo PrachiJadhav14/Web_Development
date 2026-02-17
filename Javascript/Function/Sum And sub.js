@@ -46,9 +46,6 @@
 //    var Result = MyFunction(x);
 //    console.log(Result);
 
-
-
-
 function Sum(x,y){
     let  z = x+ y;
     return z; 
