@@ -50,5 +50,5 @@ function Display(X){
     //     sendFunction(sum) 
     // }
 
-    // sum(10,20,fun);
+sum(10,20,fun);
 
