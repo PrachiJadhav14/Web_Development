@@ -6,8 +6,7 @@ function Display(X){
         let sum = a + b;
         sendFunction(sum);  
     }
-    
-    sum(10,60,Display);
+     sum(10,60,Display);
 
 
 //     2)
