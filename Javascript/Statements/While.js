@@ -53,7 +53,6 @@
           x++;
      }while(x<y)
 
-
      var Student = "name";   ///////Interview Quetion
      var x  = 0;
      var y = 10;
