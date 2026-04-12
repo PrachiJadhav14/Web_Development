@@ -1,4 +1,3 @@
-
 var Student = ["Prachi","Sakshi","Sneha","Shiv","saku"];
 
 
