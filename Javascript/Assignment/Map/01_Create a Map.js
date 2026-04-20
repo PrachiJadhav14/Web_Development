@@ -6,7 +6,6 @@ let StudentMarks = new Map([
     ["Neha",81]
 
 ]);
-
 for(const [Student,marks]of StudentMarks){
     console.log(`${Student}:${marks}`);
 }
